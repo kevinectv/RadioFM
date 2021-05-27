@@ -57,10 +57,7 @@ html>* {
     margin-right: 1rem;
   }
 
-  #player {
-    margin : 1rem 0;
-    box-shadow: 0 0 .5rem .5rem rgba(43, 43, 43, 0.349);
-  }
+  
 
   h2 {
     margin: 3rem 0;
