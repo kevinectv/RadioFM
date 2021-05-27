@@ -4,13 +4,6 @@ html>* {
     padding: 0;
     font-family: 'Open Sans';
   }
-
-:root {
-    --epico-main-color: #c80507;
-    --epico-background-color: #ffffff;
-    --epico-text-color: #575757;
-}
-
   body {
     background: rgb(0 0 0);
   }
