@@ -1,0 +1,65 @@
+<head>
+  <title>Urbana Radio FM</title>
+  <link rel='icon' href='img/favicon.png' type='image/x-icon'/ >
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+   
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/style/font-awsome/css/all.css">
+  <link rel="stylesheet" href="main.min.css">
+  <script src="index.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/lunaradio-sincors.js"></script>
+
+
+
+
+
+
+<div id="mylunaradio" style="width:100%; height:600px;background: #000000  bottom / cover no-repeat;"></div>
+
+
+
+<div id="mylunaradio" style='width:100%; height:700px;
+-webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;'>					
+
+
+<body>
+
+
+<script>
+
+$("#mylunaradio").lunaradio({
+    token: "yourtoken",
+	userinterface: "big",
+    radioname: "My Radio Name",
+    streamurl: "", 
+    streamtype: "radiozeno",
+    radiozenoid: "eua53eq57p8uv",
+	radionomyapikey: "8d8fbbae6880ec30361a514da2629e7f",
+});
+
+</script>
+
+</body>
