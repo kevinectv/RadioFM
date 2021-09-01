@@ -8259,7 +8259,7 @@ body.video-floated.video-minimized .chart-detail-header {
  overflow:hidden
 }
 .chart-page .chart-video__wrapper .chart-video__thumbnail:hover .chart-video__thumbnail-overlay {
- background-color:#1eb2e4
+ background-color:#ce0012;
 }
 .chart-page .chart-video__wrapper .chart-video__thumbnail-poster {
  width:128px;
@@ -8274,7 +8274,7 @@ body.video-floated.video-minimized .chart-detail-header {
 .chart-page .chart-video__wrapper .chart-video__thumbnail-overlay {
  position:absolute!important;
  background-color:rgba(0,0,0,.75);
- border:2px solid #1eb2e4;
+ border:2px solid #ce0012;
  width:31px;
  height:21px;
  bottom:8px;
@@ -8306,14 +8306,14 @@ body.video-floated.video-minimized .chart-detail-header {
  top:50%;
  -webkit-transform:translateY(-50%);
  transform:translateY(-50%);
- background:url(../images/charts/playing-eq-icon-white.svg?91cf92d6263d2a29197f);
+ background:url( https://www.billboard.com/assets/1626912924/images/charts/playing-eq-icon-white.svg?91cf92d6263d2a29197f);
  background-repeat:no-repeat;
  background-position:50%;
  width:100%;
  height:21px
 }
 .chart-page .chart-video__wrapper .chart-video__information {
- color:#000;
+ color:#e9e9e9;
  display:inline-block;
  padding:0 5px;
  vertical-align:top;
@@ -8449,7 +8449,7 @@ body.hidden-nav #floatingVideo.floating {
  top:0
 }
 .chart-page .ad-container {
- padding:20px 0
+ padding: 1px 0
 }
 .chart-page .large-ad {
  height:250px;
@@ -8529,9 +8529,9 @@ body.hidden-nav #floatingVideo.floating {
 .chart-page .chart-list-item {
  position:relative;
  width:100%;
- border-radius:3px;
- background-color:#fff;
- border:1px solid #e9e9e9;
+ border-radius:8px;
+ background: linear-gradient(90deg, rgba(8,5,5,1) 0%, rgba(9,8,8,1) 35%, rgba(9,8,8,1) 100%);
+border: 1px solid #080808;
  margin-bottom:3px;
  overflow:hidden
 }
@@ -8548,7 +8548,7 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__first-row:hover .fa-chevron-down,
 .chart-page .chart-list-item__first-row:hover .fa-video-camera {
- color:#1eb2e4
+ color:#f0f0f0;
 }
 .chart-page .chart-list-item__expanded-header {
  display:none
@@ -8588,7 +8588,8 @@ body.hidden-nav #floatingVideo.floating {
  font-size:27px;
  line-height:27px;
  font-weight:700;
- letter-spacing:-1px
+ letter-spacing:-1px;
+ color: #e9e9e9;
 }
 @media only screen and (min-width:768px) and (min-height:425px) {
  .chart-page .chart-list-item__rank {
@@ -8645,7 +8646,7 @@ body.hidden-nav #floatingVideo.floating {
  left:0;
  width:100%;
  height:100%;
- background-color:rgba(30,178,228,.5);
+ background-color: rgb(0 0 0 / 60%);
  transition:opacity .1s ease-in
 }
 @media only screen and (min-width:768px) and (min-height:425px) {
@@ -8755,12 +8756,12 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__artist a,
 .chart-page .chart-list-item__title-text a {
- color:#000;
+ color:#e9e9e9;
  text-decoration:none
 }
 .chart-page .chart-list-item__artist a:hover,
 .chart-page .chart-list-item__title-text a:hover {
- color:#1eb2e4
+ color:#64646494;
 }
 .chart-page .chart-list-item__title {
  font-weight:600;
@@ -8777,7 +8778,8 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__title-text {
  display:inline-block;
- max-width:100%
+ max-width:100%;
+ color: #e9e9e9;
 }
 @media only screen and (min-width:768px) and (min-height:425px) {
  .chart-page .chart-list-item__title-text {
@@ -8791,7 +8793,8 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__artist {
  line-height:19px;
- font-size:13px
+ font-size:13px;
+ color: #e9e9e9;
 }
 @media only screen and (min-width:768px) and (min-height:425px) {
  .chart-page .chart-list-item__artist {
@@ -8811,7 +8814,7 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__chevron-wrapper {
  font-size:13px;
- color:#1eb2e4;
+ color:#e9e9e9;
  padding-right:15px;
  padding-left:10px
 }
@@ -8831,15 +8834,15 @@ body.hidden-nav #floatingVideo.floating {
 .chart-page .chart-list-item__chevron-wrapper .fa-chevron-down--inverse {
  -webkit-transform:rotate(180deg);
  transform:rotate(180deg);
- color:#01b1e6
+ color:#c7c5c7;
 }
 .chart-page .chart-list-item__video-icon {
  height:20px;
- width:30px;
- background:url(../images/charts/video-icon-play.svg?91cf92d6263d2a29197f)
+ width: 20px;
+ background:url( https://www.urbanaradiofm.ga/TOP_Urbana/Top/spotify.svg)
 }
 .chart-page .chart-list-item__video-icon:hover {
- background:url(../images/charts/video-icon-play-hover.svg?91cf92d6263d2a29197f)
+ background:url( https://www.urbanaradiofm.ga/TOP_Urbana/Top/Vector.svg)
 }
 .chart-page .chart-list-item__video-icon-wrapper {
  padding-right:24px;
@@ -8852,7 +8855,7 @@ body.hidden-nav #floatingVideo.floating {
 }
 .chart-page .chart-list-item__video-icon-wrapper .now-playing-icon {
  display:none;
- background:url(../images/charts/playing-eq-icon-blue.svg?91cf92d6263d2a29197f);
+ background:url( https://www.billboard.com/assets/1626912924/images/charts/playing-eq-icon-blue.svg?91cf92d6263d2a29197f);
  background-repeat:no-repeat;
  background-position:50%;
  width:30px;
@@ -8873,12 +8876,12 @@ body.hidden-nav #floatingVideo.floating {
  width:100%;
  height:30px;
  opacity:.06;
- background-image:linear-gradient(180deg,#000,transparent);
+ background-image: linear-gradient(180deg,#3860be,transparent);
  display:block
 }
 .chart-page .chart-list-item--expanded {
- box-shadow:0 4px 8px 0 rgba(0,0,0,.12);
- margin-bottom:10px
+ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+ margin-bottom: 11px;
 }
 @media only screen and (min-width:768px) and (min-height:425px) {
  .chart-page .chart-list-item--expanded {
@@ -8934,7 +8937,7 @@ body.hidden-nav #floatingVideo.floating {
  white-space:normal
 }
 .chart-page .chart-list-item--expanded .chart-list-item__artist a {
- color:#1eb2e4
+ color:#484646;
 }
 .chart-page .chart-list-item--expanded .chart-list-item__first-row .fa-video-camera {
  color:#000!important
@@ -8969,7 +8972,7 @@ body.hidden-nav #floatingVideo.floating {
  text-align:center;
  max-width:676px;
  padding:10px 0 0;
- color:#4a4a4a;
+ color:#c7c5c7;
  font-weight:600;
  font-size:9px;
  margin:0 auto
@@ -9320,7 +9323,7 @@ body.hidden-nav #floatingVideo.floating {
  text-align:center;
  max-width:676px;
  padding:20px 0 0;
- color:#4a4a4a;
+ color:#c1c1c1;
  font-weight:600;
  font-size:9px;
  margin:0 auto
@@ -9334,7 +9337,7 @@ body.hidden-nav #floatingVideo.floating {
  display:inline-block;
  position:relative;
  vertical-align:top;
- border-right:1px solid #f0f0f0;
+ border-right:1px solid #171717;
  width:22%;
  height:98px
 }
@@ -9362,7 +9365,7 @@ body.hidden-nav #floatingVideo.floating {
  }
 }
 .chart-page .chart-list-item__stats-divider {
- background-color:#f0f0f0;
+ background-color:#252525;
  height:1px;
  border:0
 }
@@ -9465,7 +9468,8 @@ body.hidden-nav #floatingVideo.floating {
  display:inline-block;
  position:relative;
  vertical-align:top;
- margin-right:10px
+ margin-right:10px;
+ color: #e9e9e9;
 }
 .chart-page .chart-list-item__ministats-cell-heading {
  color:#999
@@ -10643,7 +10647,7 @@ html {
 }
 .chart-page {
  font-family:Poppins,verdana,sans-serif;
- background-color:#f0f0f0;
+ background-color:#0d0f16;
  -webkit-tap-highlight-color:transparent
 }
 .chart-page .chart-piano-overlay__attachment-point {
@@ -10712,7 +10716,7 @@ html {
  }
 }
 .chart-page .container--xxlight-grey {
- background-color:#f0f0f0
+ background-color:#0d0f16;
 }
 @media only screen and (min-width:768px),only screen and (min-width:1024px) {
  .chart-page .container--xxlight-grey__ad {
@@ -10762,7 +10766,7 @@ html {
  background-color:transparent
 }
 .chart-page .leaderboard {
- background-color:#f0f0f0
+ background-color:#0d0f16;
 }
 .chart-page .ellipsis {
  overflow:hidden
