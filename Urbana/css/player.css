@@ -13,7 +13,7 @@ body {
 
 
 .mBottom {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
 }
 .player {
     position: relative;
@@ -114,7 +114,7 @@ pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
 .player {position:relative; height:60px;}
 
 .footer {margin:0 20px 20px 20px;}
-.mBottom {margin-bottom:21px;}
+.mBottom {margin-bottom:20px;}
 
 .logo {width:300px;height:110px;text-indent:-9999px;background-repeat:no-repeat;background-size:contain;background-position:center;}
 
