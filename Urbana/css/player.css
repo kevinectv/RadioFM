@@ -15,6 +15,7 @@ body {
 .mBottom {
     margin-bottom: 20px;
 }
+
 .player {
     position: relative;
     height: 67px;
@@ -111,7 +112,7 @@ pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
 
 .playerLeft {width:300px; margin:20px; float:left;}
 .playerRight {width: 406px; margin:20px 20px 20px 0; float:right;}
-.player {position:relative; height:60px;}
+.player {position:relative; height:67px;}
 
 .footer {margin:0 20px 20px 20px;}
 .mBottom {margin-bottom:20px;}
